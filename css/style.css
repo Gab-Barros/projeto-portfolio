@@ -1,0 +1,63 @@
+/* RESET */
+
+body, h1, h2, ul, li, a, table, tr, td{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER E CAPA*/
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: space-between;
+  padding: 25px calc((100% - (12 * 90px + 220px)) / 2);
+}
+
+.disponivel{
+  text-align: center;
+}
+
+.menu{
+  justify-self: end;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li a{
+  padding: 15px 15px;
+}
+
+.menu ul li+li {
+  margin-left: 10px;
+}
+
+.capa h1{
+  display: block;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: normal;
+  padding: 150px 0px;
+}
+
+.vantagens{
+  margin: 0 auto;
+}
+
+.capa{
+  color: #FCFBF9;
+}
