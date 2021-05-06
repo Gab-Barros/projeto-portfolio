@@ -161,13 +161,11 @@ body{
 
 
 .vantagens li{
-  padding: 15px 75px;
+  padding: 15px 25px;
 }
 
-
-
 .vantagens-col-1{
-  justify-self:end
+  justify-self:end;
 }
 
 .vantagens-col-1 li:first-child::after{
@@ -188,7 +186,7 @@ body{
 
 @media (min-width: 605px) and (max-width: 740px){
   .vantagens-col-1 li:first-child::after{
-    width: 300%;
+    width: 220%;
   }
 }
 
@@ -262,7 +260,7 @@ body{
   }
 
   .vantagens li{
-    padding: 15px 25px;
+    padding: 25px 25px 15px 25px;
     line-height: 1.5em;
   }
 
